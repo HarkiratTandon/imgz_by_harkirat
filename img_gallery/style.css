@@ -1,0 +1,121 @@
+.navbar-custom{
+    background: #4f46e5;
+}
+.navbar .navbar-brand{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+nav .navbar-nav .nav-link{
+    color: #ffffff !important;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.navbar .navbar-brand:hover{
+    color: white;
+}
+#underline{
+    padding-bottom: 10px;
+    border-bottom: #4f46e5 5px solid;
+    border-radius: 2px;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+.image-item img:hover {
+    width: 102%;
+    height: 102%;
+    display: block;
+    gap: auto;
+    border-radius: 5px;
+    transition: 250ms;
+    transform: translate(-y);
+
+}
+#htm{
+    width: 250px;
+    height: 100px;
+}
+#rct{
+    width: 170px;
+    height: 150px;
+}
+#nd{
+    width: 150px;
+    height: 150px;
+}
+#boot{
+    width: 150px;
+    height: 150px;
+}
+#mat{
+    width: 100px;
+    height: 100px;
+}
+#tail{
+    width: 100px;
+    height: 100px;
+}
+#custom-btn{
+    background: #4f46e5;
+    color: white;
+    border-radius: 8px;
+    border-color: #4f46e5;
+    outline: none;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#custom-btn:hover{
+    background: #3832b0;
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2f2f2f;
+    color: #ffffff;
+    padding: 20px;
+}
+.image-preview {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.image-preview img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close-button {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    
+}
